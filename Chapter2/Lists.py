@@ -23,6 +23,8 @@ print(motorcycles)
 
 #Adding to a list
 cars = ['Toyota', 'Lexus', 'Audi']
-# using .append
+# using .append()
+# .append() allows you build lists dynamically
+# To add elements to the end of a List, use .append()
 cars.append("BMW")
 print(cars)
