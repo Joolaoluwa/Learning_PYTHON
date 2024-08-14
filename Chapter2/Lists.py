@@ -36,3 +36,6 @@ print(cars)
 
 # Removing from a list
 #using del
+#To remove an item according to its position in a list use del
+del cars[0]
+print(cars)
