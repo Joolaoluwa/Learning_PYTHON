@@ -12,3 +12,11 @@ print(bicycles[-2])
 #Example 4, using individual values from a list
 message = "My first bicycle was a " + bicycles[0].title() + "."
 #print(message)
+
+#You can use individual values from a list just as you would use any variable
+
+#In python, you can change/modify an item in the list
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+motorcycles[0] = 'Ducati'
+print(motorcycles) 
