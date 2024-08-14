@@ -28,3 +28,11 @@ cars = ['Toyota', 'Lexus', 'Audi']
 # To add elements to the end of a List, use .append()
 cars.append("BMW")
 print(cars)
+
+# using .insert()
+cars.insert(3, "Mikano")
+cars.insert(1, 'Volvo')
+print(cars)
+
+# Removing from a list
+#using del
