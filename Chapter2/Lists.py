@@ -19,4 +19,10 @@ message = "My first bicycle was a " + bicycles[0].title() + "."
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 motorcycles[0] = 'Ducati'
-print(motorcycles) 
+print(motorcycles)
+
+#Adding to a list
+cars = ['Toyota', 'Lexus', 'Audi']
+# using .append
+cars.append("BMW")
+print(cars)
