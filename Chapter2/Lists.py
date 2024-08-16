@@ -39,3 +39,18 @@ print(cars)
 #To remove an item according to its position in a list use del
 del cars[0]
 print(cars)
+
+#using .pop()
+#To remove an item from the end of a list, thinking of the stack as a stack of items, in which items are popped of at the top of the stack
+bmw = cars.pop()
+print (cars)
+print (bmw)
+
+#Try to always recall that a list is an ordered collection
+
+#You can actually use pop() to remove an item in a list at any position by 
+#including the index of the item you want to remove in parentheses.
+
+first = cars.pop(0)
+message = "I recently bought a " + first
+print(message)
