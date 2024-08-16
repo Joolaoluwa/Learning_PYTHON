@@ -54,3 +54,8 @@ print (bmw)
 first = cars.pop(0)
 message = "I recently bought a " + first
 print(message)
+
+
+#Removing an item from a list without knowing the position, just the value
+cars.remove("Lexus")
+print(cars)
