@@ -68,4 +68,6 @@ print(names)
 price = [75.323, 34.456, 33.1, 100.45]
 price.sort()
 print(price)
-
+names.sort(reverse=True)
+print(names)
+print(sorted(price)) #Temporarily used to reverse a list in an arranged fashion
