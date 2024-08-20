@@ -73,4 +73,11 @@ print(names)
 print(sorted(price)) #Temporarily used to reverse a list in an arranged fashion
 names.reverse() # To reverse a list in a chronological manner, imagine it like you meeting different people at different times
 # and you want to know when you met every single person but from the present tense
-print(names) 
+print(names)
+
+#Finding the length of a list
+#using len
+print(len(names))
+
+#How to avoid index errors when using a List
+
