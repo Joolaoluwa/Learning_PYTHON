@@ -71,3 +71,5 @@ print(price)
 names.sort(reverse=True)
 print(names)
 print(sorted(price)) #Temporarily used to reverse a list in an arranged fashion
+names.reverse()
+print(names)
