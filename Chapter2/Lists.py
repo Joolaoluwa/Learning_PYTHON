@@ -59,3 +59,13 @@ print(message)
 #Removing an item from a list without knowing the position, just the value
 cars.remove("Lexus")
 print(cars)
+
+#Organizing a list
+#Sorting a list permanently reverts the order of a list in the ascending to descending order
+names = ['Joshua','Ayomide','Oluwapelumi','Jide','Blessing']
+names.sort()
+print(names)
+price = [75.323, 34.456, 33.1, 100.45]
+price.sort()
+print(price)
+
